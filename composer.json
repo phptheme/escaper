@@ -1,0 +1,9 @@
+{
+    "name": "phptheme/html-escaper",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PhpTheme\\HtmlEscaper\\" : ""
+        }
+    }
+}
