@@ -6,6 +6,12 @@
  */
 namespace PhpTheme\HtmlEscaper;
 
-class HtmlEscaper extends BaseHtmlEscaper
+class HtmlEscaper
 {
+
+    public static function encode($string, $encoding = 'utf-8', $specialCharsFlags = ENT_QUOTES | ENT_SUBSTITUTE)
+    {
+        return htmlspecialchars($string, $specialCharsFlags, $encoding);
+    }
+
 }
